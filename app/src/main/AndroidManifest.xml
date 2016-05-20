@@ -20,7 +20,8 @@
         </activity>
         <provider
             android:name=".MyContentProvider"
-            android:authorities="com.example.ajb_1407.contentprovidertest.provider" >
+            android:authorities="com.example.ajb_1407.contentprovidertest.provider"
+            android:exported="true">
         </provider>
     </application>
 
